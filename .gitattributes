@@ -1,0 +1,10 @@
+# Normalize line endings for text files so the repo is consistent on Windows/macOS/Linux
+* text=auto
+
+# Force LF for source files regardless of the committer's platform
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
